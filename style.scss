@@ -20,9 +20,9 @@ header {
   height: 15vh;
 }
 
-h1 {
-  background: white;
-}
+// h1 {
+//   background: white;
+// }
 
 section {
   height: 85vh;
@@ -30,24 +30,32 @@ section {
   align-items: flex-end;
 }
 
+.road-wrapper {
+  position: relative;
+  min-width: 150vw;
+  margin-bottom: 3em;
+}
+
 .road {
-  background: #6b6868;
   height: 150px;
-  width: 100vw;
-  margin-bottom: 6em;
+  width: 150vw;
+  margin-bottom: 0;
 }
 
 .lane-lines {
+  position: absolute;
   height: 50%;
-  width: 100vw;
+  width: 150vw;
   border-bottom: .4em dashed white;
 }
 
 .car-wrapper {
+  background: #6b6868;
   height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-bottom: 6em;
 }
 
 %car {
