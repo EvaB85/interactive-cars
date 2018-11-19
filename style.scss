@@ -149,48 +149,4 @@ section {
   align-self: flex-end;
   margin: 0;
   z-index: 10;
-  //name of animation, duration, how many times, 'alternte', ease, final hold;
-  // animation: cargo 4s 3 alternate ease-in-out forwards;
-  animation: cargo 8s infinite linear forwards;
 }
-
-@keyframes cargo {
-  0% {
-    transform: translateX(-1500px);
-    //0% of the time
-  }
-
-  20% {
-    transform: translateX(-50px) rotateY(0deg);
-    //100% of time
-  }
-   35% {
-     transform: translateX(50px) rotateY(360deg);
-   }
-
-  100% {
-    transform: translateX(50px) rotateX(360deg);
-  }
-}
-
-
-.car--red {
-  animation: wheels 8s infinite forwards;
-}
-
-@keyframes wheels {
-  0% {
-    transform: translateX(-1000px);
-  }
-
-  50% {
-    transform: translateX(1100px);
-  }
-
-  100% {
-    transform: translateX(1100px);
-  }
-}
-
-
-//banana emoji <i class="em em-banana"></i>
